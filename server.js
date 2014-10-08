@@ -9,6 +9,11 @@ var express = require('express');
 var app = express();
 
 app.get('/gtoa/:og/:sg', function(req, res) {
+  var og = req.params.og;
+  var sg = req.params.sg;
+  if (!og || !sg) {
+    throw new Error('Givem me values plz');
+  }
   res.status(200).end(gtoa(req.params.og, req.params.sg).toString());
 });
 app.listen(9008);
