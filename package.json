@@ -23,6 +23,10 @@
     "istanbul": "^0.3.2",
     "jshint": "^2.5.6",
     "mocha": "^1.21.4",
-    "should": "^4.0.4"
+    "should": "^4.0.4",
+    "supertest": "^0.14.0"
+  },
+  "dependencies": {
+    "express": "^4.9.5"
   }
 }
