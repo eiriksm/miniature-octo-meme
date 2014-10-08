@@ -4,3 +4,7 @@ node_js:
   - "0.10"
   - "0.8"
   - "0.6"
+
+script:
+  - npm i -g npm
+  - make test-cov
