@@ -1,0 +1,27 @@
+{
+  "name": "miniature-octo-meme",
+  "version": "1.0.0",
+  "description": "miniature-octo-meme ===================",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eiriksm/miniature-octo-meme.git"
+  },
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eiriksm/miniature-octo-meme/issues"
+  },
+  "homepage": "https://github.com/eiriksm/miniature-octo-meme",
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
